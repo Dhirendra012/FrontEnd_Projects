@@ -1,0 +1,102 @@
+*{ box-sizing: border-box; }
+
+body
+{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(245.59deg, #65cefb 20%,#33b5f6 28.53%, #70a0cd 72.52%);
+    padding: 5% 13%;
+}
+
+#main
+{
+    /* background: linear-gradient(245.59deg, #519c5d 0%,#4dba56 28.53%, #5ade77 72.52%); */
+    height: 100%;
+    background-color: white;
+    border-radius: 3.5rem;
+}
+
+#nav
+{
+    width: 100%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+
+a { 
+    text-decoration: none;  
+    color: black;
+    padding: 0.5rem 0rem;
+    font-weight: 500;
+}
+
+.X
+{
+    background-color: aqua;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 4.5rem;
+    transition: 0.4s;
+}
+
+.X:hover
+{
+    background-color: rgb(212, 241, 78);
+    color: rgb(230, 136, 93);
+}
+
+.mid > a
+{ padding-left: 1.3rem;   }
+.end > a 
+{ padding-right: 1.2rem; }
+.first > a 
+{ padding-right: 1.8rem; }
+
+
+#str
+{
+    display: flex;
+    align-items: center;
+    height: 65%;
+    justify-content: space-evenly;
+}
+
+str > img
+{
+    object-fit: cover;
+    max-height: fit-content;
+    max-width: fit-content;
+}
+
+#str1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input
+{
+    height: 30px;
+}
+
+button
+{
+    margin-left: 15px;
+    background-color: aqua;
+    border-radius: 10%;
+    border-style: none;
+    height: 30px;
+    transition: 0.4s;
+}
+
+button:hover
+{
+    background-color: rgb(247, 40, 40);
+    color: white;
+    cursor: pointer;
+}
